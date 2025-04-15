@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Dark mode */
+body.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  body.dark .task-item {
+    background-color: #444;
+    color: white;
+  }
+  
+  .App {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
